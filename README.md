@@ -20,7 +20,7 @@ glide mirror set https://golang.org/x/crypto https://github.com/golang/crypto
 go get github.com/opentracing/opentracing-go
 
 go get -u github.com/uber/jaeger-client-go/
-cd $GOPATH/src/github.com/uber/jaeger-client-go/
+cd ${GOPATH}/src/github.com/uber/jaeger-client-go/
 git submodule update --init --recursive
 make install
 ```
