@@ -1,0 +1,9 @@
+import:
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/crypto
+  subpackages:
+  - acme
+- package: github.com/uber/jaeger-client-go
+  version: ^2.7.0
